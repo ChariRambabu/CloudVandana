@@ -20,10 +20,10 @@ public class PangramChecker {
 
         for (char ch = 'a'; ch <= 'z'; ch++) {
             if (input.indexOf(ch) == -1) {
-                return false; // If any letter is missing, it's not a pangram
+                return false;
             }
         }
 
-        return true; // All letters are present, it's a pangram 
+        return true; 
     }
 }
